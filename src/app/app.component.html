@@ -4,12 +4,16 @@
         <ion-title>
         <div class="hcs">
             <img alt="logo" id="header_logo" height="40" src="http://85.95.240.159/assets/images/logo.png">
-        <span> Test Project</span>
+        <span> Test Project - {{title}}</span>
         </div>
         </ion-title>
         </ion-toolbar>
     </ion-header>
-    <ion-content padding>
+    <ion-content  overflow-scroll='true'>
+            <!-- <ion-scroll scrollX="true" id="lines">
+                  
+            </ion-scroll> -->
+
         <ion-router-outlet></ion-router-outlet>
     </ion-content>  
 </ion-app>

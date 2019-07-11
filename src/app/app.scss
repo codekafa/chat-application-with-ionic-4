@@ -10,3 +10,68 @@
     flex-direction: row;
     align-items: center;
   }
+
+  .toast-warning {
+    .toast-wrapper{
+      background-color: white !important;
+      background:white !important;
+    }
+    .toast-content{
+      background-color: white;
+    }
+    .toast-message { 
+        color: orange !important ;
+    }
+    .toast-container {
+      color: orange !important ;
+    }
+    .toast-md {
+      color: orange !important ;
+    }
+    .ion-toast{
+      color: orange !important ;
+    }
+}
+
+.toast-danger {
+  .toast-content{
+    background-color: white;
+  }
+  .toast-message { 
+      color: red !important ;
+  }
+  .toast-container {
+    color: red !important ;
+  }
+  .toast-md {
+    color: red !important ;
+  }
+
+  .ion-toast{
+    color: red !important ;
+  }
+}
+
+.toast-success {
+  .toast-wrapper{
+    background-color: white !important;
+    background:white !important;
+  }
+  .toast-content{
+    background-color: white !important;
+  }
+  .toast-message { 
+      color: green !important ;
+  }
+  .toast-container {
+    color: green !important ;
+  }
+  .toast-md {
+    color: green !important ;
+
+  }
+  .ion-toast{
+    color: green !important ;
+  }
+}
+
